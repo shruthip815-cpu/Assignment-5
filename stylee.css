@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    height: 100%;
+    width:100%;
+    padding: 20px;
+    
+     /* overflow-x: hidden; */
+     /* overflow-y: hidden; */
+}
+nav{
+    height: 100vh;
+    width:100%;
+    padding: 10px;
+    /* margin: 20px ; */
+    background-image: url(./background.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+}
+.nav{
+   
+    height: 60px;
+    width: 100%;
+    margin: 5px;
+    display: flex;
+    justify-content: flex-end;
+   
+}
+.text{
+    margin: 20px;
+    padding: 5px;
+    font-size: 18px;
+    
+     color: white;
+}
+.center{
+    flex:1;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.center h1{
+    font-size: 130px;
+    position: absolute;
+    bottom: 90px;
+  
+}
+.center h3{
+    font-size: 30px;
+     position: absolute;
+    bottom: 200px;
+}
+.center hr{
+    width: 35px;
+    border: 3px solid white;
+    position: absolute;
+    bottom: 170px;
+}
+
+section1{
+     height: 100vh;
+    width:100%;
+    padding: 100px;
+    background-color: rgb(248, 248, 248);
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    width: 100%;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    margin-bottom: 5px;
+   
+}
+.heading hr{
+    width:80px;
+    margin:20px auto;
+    border: 3px solid black;
+  
+}
+.content{ 
+     padding:10px ;
+     min-height: 480px;
+     align-self: center;
+     display:grid;
+     grid-template-columns: repeat(3,350px);
+     gap:30px; 
+
+}
+.line{
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px auto;
+}
+.p{
+    font-size: medium;
+    letter-spacing: 0.01em;
+    text-align: center;
+}
+.divs{
+    background-color: white;
+    box-shadow: 0 10px 25px rgb(67,65,65);
+   
+
+}
+.articles{
+    height:230px;
+    width: 350px;
+}
+section2{
+     height: 100vh;
+    width:100%;
+    background-color: rgb(231, 229, 229);
+     display: flex;
+     overflow-y:hidden;
+     overflow-x: hidden;
+}
+.imgd{
+    padding-top: 15px;
+     background-color:white;
+     height:100vh;
+     width:50%;
+}
+
+.about{
+    padding: 30px;
+     background-color:white;
+     height:100vh;
+     width:50%;
+}
+#ab{
+    height: 100vh;
+    width: 100%;
+}
+#h2{
+    font-size:xxx-large;
+    text-align: center;
+    margin-top: 100px;
+    letter-spacing: 0.01em;
+}
+#aline{
+    width:60px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 10px auto;
+}
+#ap{
+    font-size:larger;
+    font-weight: 500;
+    line-height: 1.5;
+   text-align: center;
+   
+}
+contact{
+     height: 100vh;
+    width:100%;
+    background-color: white;
+     display: flex;
+     flex-direction: column;
+     overflow-y: hidden;
+     /* position: relative; */
+}
+.div1{
+    background-color:  rgb(248, 248, 248);
+    width:100%;
+    height:58%;
+    padding: 10px;
+}
+#c-h3{
+    font-size:xxx-large;
+    font-weight:700;
+    /* transform: scaleY(1.5); */
+    text-align: center;
+    margin-top: 80px;
+}
+#c-p{
+    font-size: x-large ;
+    text-align: center;
+
+
+}
+#c-i{
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    height: 50px;
+    width: 300px;
+    border: white;
+}
+
+#c-b2{
+    display: block;
+    margin: 0 auto;
+    height:30px;
+    width: 100px;
+}
+.div2{
+    padding: 10px;
+    background-color:white;
+     width:100%;
+    height:42%;
+    display: flex;
+    align-items: center;
+   position: relative;
+}
+#logo1{
+    height: 50px;
+     position: absolute;
+    right: 1162px;
+}
+#logo2{
+    height: 35px;
+    position: absolute;
+    right: 1110px;
+}
+#logo3{
+    height: 35px;
+    position: absolute;
+    right: 1048px;
+}
+#logo4{
+    height: 50px;
+    position: absolute;
+    right: 986px;
+}
+#link1{
+    position: absolute;
+    right: 500px;
+    color: black;
+    text-decoration: none;
+}
+#link2{
+     position: absolute;
+    right: 400px;
+     color: black;
+      text-decoration: none;
+}
+
+
+#link3{
+    position: absolute;
+    right: 270px;
+     color: black;
+      text-decoration: none;
+}
